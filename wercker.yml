@@ -1,7 +1,6 @@
-box: golang
+box: debian
 build:
   steps:
-    - setup-go-workspace
     - arjen/hugo-build:
         version: "0.16"
         theme: hugo-orbit-theme
@@ -14,4 +13,3 @@ deploy:
         token: $GIT_TOKEN
         domain: dbparedes.github.io
         basedir: public
-        branch: gh-pages
