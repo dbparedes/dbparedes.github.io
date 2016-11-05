@@ -12,7 +12,5 @@ deploy:
         packages: git ssh-client
     - lukevivier/gh-pages@0.2.1:
         token: $GIT_TOKEN
-        repo: dbparedes/dbparedes.github.io
-        branch: gh-pages
         domain: dbparedes.github.io
         basedir: public
