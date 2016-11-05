@@ -14,3 +14,4 @@ deploy:
         token: $GIT_TOKEN
         domain: dbparedes.github.io
         basedir: public
+        branch: gh-pages
