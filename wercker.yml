@@ -1,0 +1,18 @@
+box: golang
+build:
+  steps:
+    - setup-go-workspace
+    - arjen/hugo-build:
+        version: "0.16"
+        theme: hugo-orbit-theme
+        flags: --buildDrafts=true
+deploy:
+  steps:
+    - install-packages:
+        packages: git ssh-client
+    - lukevivier/gh-pages@0.2.1:
+        token: $GIT_TOKEN
+        repo: dbparedes/dbparedes.github.io
+        branch: gh-pages
+        domain: dbparedes.github.io
+        basedir: public
