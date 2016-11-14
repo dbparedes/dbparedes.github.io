@@ -114,7 +114,7 @@ disable404 = true
         enable = true
         icon = "fa-user"
         title = "About Me"
-        summary = "I recently completed my B.S. with honors in mechatronics engineering at Universidad Nacional de Ingenieria in Lima, Peru. While I was undergrad I used to run and organize a student research group ([**GISCIA**](http://giscia.github.io)).\n\n I am currently working as a research intern at Siemens Healthineers. Previously, I had a great research experience at Duke University."
+        summary = "I recently completed my B.S. with honors in mechatronics engineering at Universidad Nacional de Ingenieria in Lima, Peru. While I was and undergrad student, I used to run a student research group ([**GISCIA**](http://giscia.github.io)).\n\n I am currently working as a research intern at Siemens Healthineers. Previously, I had a great research experience at Duke University."
         # [GISCIA](http://giscia.github.io)
         #
     # Experiences section
